@@ -1,0 +1,33 @@
+{
+  "name": "@zuiyouliao/zyl-cli",
+  "version": "0.2.0",
+  "description": "最有料web开发脚手架",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "zyl-cli": "bin/enter.js"
+  },
+  "keywords": [
+    "zyl-cli",
+    "template",
+    "web",
+    "admin",
+    "h5"
+  ],
+  "author": "zly <294333196@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "cross-spawn": "^7.0.3",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.1"
+  }
+}
